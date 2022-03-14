@@ -51,9 +51,9 @@ Check out our resources:
 
 [Link Jira](https://se-fe7-kelompok6.atlassian.net/jira/software/projects/KEL/boards/1)
 
-[Link Figma](https://www.figma.com/file/YUtBH0XeG6TbDrkq5SIv62/Snake-Game?node-id=0%3A1)
+[Link Figma](https://www.figma.com/file/5nDT6UqrgYGFSJYhFUeIW7/Fix-Snake-Game?node-id=0%3A1)
 
-Link Deploy : 🚧 WIP
+[Link Deploy](https://ilhamadhim.github.io/snek-js/public/index.html)
 
 ## Tools Used:
 
