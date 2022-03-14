@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #2d232e;
+  overflow-x: hidden;
+}
+
+main {
+  width: 100%;
+  padding: 0 8em;
+}
+
+.row {
+  display: flex;
+  gap: 1.2em;
+  justify-content: center;
+  margin: 2em 1em;
+}
+
+.divider {
+  margin: 1em;
+  border: 1px solid #eee4e8;
+}
+.row.board {
+  justify-content: center;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 1em;
+  text-align: center;
+}
+
+.card-content {
+  padding: 1em;
+}
+
+.sub-content {
+  text-align: start;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+.health {
+  color: maroon;
+}
+
+.col {
+  flex-basis: 0;
+  flex-basis: 25%;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

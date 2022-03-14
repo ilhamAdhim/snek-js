@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <!-- Jika ada file tambahan, pastikan  diatasnya index.js  -->
+    <script defer type="text/javascript" src="../src/init.js"></script>
+    <script defer type="text/javascript" src="../src/movement.js"></script>
+    <script defer type="text/javascript" src="../src/common.js"></script>
+    <script defer type="text/javascript" src="../src/render.js"></script>
+    <script defer type="text/javascript" src="../src/level.js"></script>
+
+    <!-- Tambah disini -->
+    <!-- .... -->
+    <!-- .... -->
+    <!-- .... -->
+
+    <script defer type="text/javascript" src="../src/index.js"></script>
+
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+
+  <body>
+    <main>
+      <div class="row board">
+        <div class="col">
+          <canvas id="snakeBoard" width="600" height="600" style="border: 1px solid #000000"></canvas>
+        </div>
+        <div class="col card">
+          <div class="card-title">Snake Statistics</div>
+          <div class="card-content">
+            <!-- Health Part -->
+            <div class="sub-content health">Health</div>
+            <canvas id="healthBoard" width="300" height="50" style="border: 1px solid #000000"></canvas>
+
+            <hr class="divider" />
+
+            <div class="row space-around">
+              <div class="col">
+                <!-- ScorePart -->
+
+                <div class="sub-content score">Score</div>
+                <canvas id="score1Board" width="50" height="50" style="border: 1px solid #000000"></canvas>
+              </div>
+              <div class="col">
+                <!-- Level Part -->
+
+                <div class="sub-content level">Level</div>
+                <canvas id="levelBoard" width="50" height="50" style="border: 1px solid #000000"></canvas>
+              </div>
+            </div>
+
+            <hr class="divider" />
+
+            <div class="sub-content score">Speed</div>
+            <canvas id="speedContainer" width="50" height="30"></canvas>
+            m/s
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
